@@ -2,6 +2,9 @@
 3x3 list, each cell containing one of ' ', 'X', 'O'.
 """
 
+def print_board(board):
+    print(*board, sep='\n')
+
 
 def has_won(board):
     """Given board, return 
